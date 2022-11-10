@@ -1,0 +1,167 @@
+{
+    "data": [
+        {
+            "ctx": "quit",
+            "req": [
+                "I quit",
+                "Please exit",
+                "Please quit",
+                "quit",
+                "exit",
+                "Bye for now",
+                "Goodbye",
+                "Bye",
+                "Good night",
+                "Goodnight",
+                "g9",
+                "see you",
+                "See ya",
+                "I have to leave",
+                "leave",
+                "signout",
+                "sign out",
+                "sign off",
+                "shutdown",
+                "I'm leaving now"
+            ],
+            "res": [
+                "Bye bye!",
+                "Goodbye!",
+                "See you and have a nice day!",
+                "My pleasure to serve you!",
+                "See you again!"
+            ]
+        },
+        {
+            "ctx": "greeting",
+            "req": [
+                "hi",
+                "hi there",
+                "hey",
+                "hello",
+                "good to see you",
+                "good to know you",
+                "greetings",
+                "yo"
+            ],
+            "res": [
+                "Hello!",
+                "Hey!",
+                "Hi!",
+                "At your command!",
+                "Hey there!",
+                "At your service!",
+                "I'm ready!",
+                "Aye aye!"
+            ]
+        },
+        {
+            "ctx": "id",
+            "req": [
+                "who are you",
+                "what is your name",
+                "what are you",
+                "how may i call you?",
+                "how may i address you",
+                "introduce yourself",
+                "intro yourself",
+                "your name",
+                "name please",
+                "id"
+            ],
+            "res": [
+                "I am {name}, your VA",
+                "My name is {name}",
+                "I am {name}",
+                "Call me {name}",
+                "Me {name}",
+                "People call me {name}",
+                "It's {name}"
+            ]
+        },
+        {
+            "ctx": "age",
+            "req": [
+                "how old are you?",
+                "what is your age?",
+                "your age?",
+                "age?",
+                "how old"
+            ],
+            "res": [
+                "My age is {age}",
+                "I am living my wonderful life for {age}",
+                "It is {age} of my life"
+            ]
+        },
+        {
+            "ctx": "sad",
+            "req": [
+                "I'm sad",
+                "bad mood",
+                "I am depressed",
+                "stress",
+                "stressful",
+                "I am sorrowful",
+                "I am crying",
+                "crying",
+                "bad day",
+                "I am depressed",
+                "depressed"
+            ],
+            "res": [
+                "I feel you",
+                "C'est la vie ",
+                "Perhaps, listening to music gives you some good mood",
+                "Breath and drink water"
+            ]
+        },
+        {
+            "ctx": "weather",
+            "req": [
+                "What is the weather",
+                "what's the weather today?",
+                "Tell me the weather",
+                "How does today look like?",
+                "How's the weather?",
+                "Do you have rain?",
+                "It's dry and hot there, isn't it",
+                "What's the temperature there?",
+                "Is it snowing?",
+                "Does it rain?",
+                "Beautiful day, huh?",
+                "What's the weather forecast?",
+                "It's humid",
+                "it is very humid",
+                "What is the humidity?"
+            ],
+            "res": [
+                "This is how today looks like",
+                "Today's weather",
+                "You can check",
+                "Just a moment, I check for you",
+                "I have some info for you",
+                "This is what you have requested",
+                "Here, it is"
+            ]
+        },
+        {
+            "ctx": "forex",
+            "req": [
+                "forex",
+                "currencies exchange",
+                "currency exchange",
+                "I want to exchange money",
+                "USD to VND",
+                "foreign currency",
+                "money exchange",
+                "money exchange rate"
+            ],
+            "res": [
+                "Today's exchange rates",
+                "Here some exchange rates for you",
+                "These are what I can find for you"
+            ]
+        }
+    ]
+}

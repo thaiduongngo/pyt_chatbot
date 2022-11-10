@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+            "ctx": "greeting",
+            "req": ["Chào bạn", "Chào em", "Chào anh", "Hello anh", "Hi em", "Hey em", "Hey anh"],
+            "res": ["Dạ!", "Chào bạn!", "Mình giúp gì được cho bạn"]
+        },
+        {
+            "ctx": "id",
+            "req": ["Tên bạn là gì?", "Tên em là gì?", "Tên em là gì?", "Danh tính của em?", "Danh tính của anh"],
+            "res": ["Tên mình là {name}, trợ lý ảo của bạn.", "Tên mình {name}", "I am {name}", "Bạn có thể gọi mình là {name}"]
+        },
+        {
+            "ctx": "age",
+            "req": ["Bạn bao nhiêu tuổi", "Tuổi của bạn?", "Tuổi của em?", "Em được bao nhiêu xuân xanh rồi?", "Bạn được bao nhiêu xuân xanh rồi?"],
+            "res": ["Mình được 2 tuổi rồi ạ", "Mình được 2 cái xuân xanh rồi"]
+        },
+        {
+            "ctx": "sad",
+            "req": ["Tôi buồn", "Tôi trầm cảm", "Tôi cảm thấy khó chịu", "tôi bị stress", "tôi bị bồ đá", "tôi bị người yêu phản bội"],
+            "res": ["Mình hiểu bạn!", "Bạn nên uống 1 cốc nước"]
+        },
+        {
+            "ctx": "quit",
+            "req": ["Thoát", "Thoát ứng dụng", "Tạm biệt", "Tạm biệt bạn", "Mình phải đi", "quit", "exit", "Bye for now", "Goodbye", "Bye", "Good night", "Goodnight", "g9", "see you", "See ya"],
+            "res": ["Bye bye!", "Tạm biệt bạn!", "Gặp bạn sau nhé"]
+        },
+        {
+            "ctx": "weather",
+            "req": ["Thời tiết?", "Hôm nay thời tiết như thế nào?", "Trời có nóng không?", "Trời có mưa không?", "Ngoài trời như thế nào?", "Trời hôm nay nóng bức thật!", "Mưa cả ngày"],
+            "res": ["Thời tiết hôm nay", "Mình có thông tin cho bạn"]
+        }
+    ]
+}
