@@ -13,13 +13,13 @@ conda install nltk -c conda-forge -y
 ```
 
 ```
-conda install --prefix {PATH}/.env pytorch cpuonly -c pytorch -y
+conda install pytorch cpuonly -c pytorch -y
 ```
 
 ```
-conda install --prefix {PATH}/.env selenium -c conda-forge -y
+conda install selenium -c conda-forge -y
 ```
 
 ```
-conda install --prefix {PATH}/.env pymongo flask flask-cors -y
+conda install pymongo flask flask-cors -y
 ```

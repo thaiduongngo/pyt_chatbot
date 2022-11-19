@@ -43,7 +43,7 @@ epochs = 1000
 device = to_device()
 torch.manual_seed(num_seed)
 xy_dataset = XyDataset(x=X_train, y=y_train)
-xy_loader = DataLoader(dataset=xy_dataset, batch_size=batch_size, shuffle=True, num_workers=2)
+xy_loader = DataLoader(dataset=xy_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 
 # Create model
 model = BotNN(input_size, hidden_size, output_size).to(device=device)
