@@ -52,7 +52,7 @@ def vectorize_text(x: [str], vocabulary: [str]):
     vt = list(np.zeros(vt_size, dtype=np.float32))
     for i, w in enumerate(vocabulary):
         if w in x:
-            vt[i] = 1.0
+            vt[i] += 1.0
     return vt
 
 
